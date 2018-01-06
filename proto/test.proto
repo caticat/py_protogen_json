@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+package proto;
+
+enum ID {
+	MSG_Test = 1;
+	MSG_Test1 = 2;
+}
+
+message Test {
+	optional uint64 guid = 1;
+	optional uint32 count = 2;
+}
+
+message Test1 {
+	optional uint64 guid = 1;
+	optional uint32 count = 2;
+}

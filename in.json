@@ -1,0 +1,34 @@
+[
+  {
+	"proto":"协议号(注释,放在最前面)(会按照从上倒下的顺序依次发送协议)",
+	"msg":"[可选],数据类型,如果没有则默认协议号去除`MSG_`后的类型",
+	"data":{
+	  "字段":"数据..."
+	}
+  },
+
+  {
+	"proto":"MSG_Test",
+	"msg":"Test",
+	"data":{
+	  "guid":1,
+	  "count":1
+	}
+  },
+
+  {
+	"proto":"MSG_Test",
+	"data":{
+	  "guid":1,
+	  "count":2
+	}
+  },
+
+  {
+	"proto":"MSG_Test1",
+	"data":{
+	  "guid":3,
+	  "count":4
+	}
+  }
+]
